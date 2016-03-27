@@ -11,8 +11,6 @@ import time
 # 88`8b   88~~~88 88 V8o88 88   88 88    88 88  88  88
 # 88 `88. 88   88 88  V888 88  .8D `8b  d8' 88  88  88
 # 88   YD YP   YP VP   V8P Y8888D'  `Y88P'  YP  YP  YP
-#
-#
 
 def five():
     print 5
@@ -21,7 +19,7 @@ def roman():
 def string():
     print "five"
 def ru():
-    print "russian five"
+    print "пять"
 
 # .88b  d88.  .d8b.  d888888b db   db .d8888.
 # 88'YbdP`88 d8' `8b `~~88~~' 88   88 88'  YP
@@ -29,8 +27,6 @@ def ru():
 # 88  88  88 88~~~88    88    88~~~88   `Y8b.
 # 88  88  88 88   88    88    88   88 db   8D
 # YP  YP  YP YP   YP    YP    YP   YP `8888Y'
-#
-#
 
 def plus(int):
     sum = 5 + int
