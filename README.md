@@ -18,6 +18,19 @@ five.five() # "V"
 ```python
 five.five() # "Five"
 ```
+##### Thousand
+```python
+five.thousand() # 5000
+```
+##### Seconds, Minutes and Hours
+```python
+five.seconds() # Prints 5, with a 5 second delay
+five.minutes() # Prints 5, with a 5 minute delay
+five.hours() # Prints 5, with a 5 hour delay
+```
+
+
+
 ### Maths
 
 ##### Plus
@@ -40,6 +53,7 @@ five.divide(int) # 5/int
 ```python
 five.power(int) # 5^int -- returns a decimal.
 ```
+
 
 ### If Stuff
 

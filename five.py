@@ -5,6 +5,7 @@ import random
 import math
 import time
 
+
 #misc
 
 def five():
@@ -13,6 +14,20 @@ def roman():
     print 'V'
 def string():
     print "five"
+def thousand():
+    print 5000
+def seconds():
+    time.sleep(5)
+    print 5
+def minutes():
+    time.sleep(300)
+    print 5
+def hours():
+    print "You asked for it."
+    time.sleep(18000)
+    print 5
+    print "Don't you have better things to be doing with your life?"
+
 
 #maths
 
