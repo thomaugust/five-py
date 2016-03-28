@@ -11,20 +11,43 @@ All you need to do is `import five`
 five.five() # 5
 ```
 ##### Roman
-`five.roman()`
+```python
+five.five() # "V"
+```
 ##### String
-`five.string()`
-
+```python
+five.five() # "Five"
+```
 ### Maths
 
 ##### Plus
-`five.`
+```python
+five.plus(int) # 5+int
+```
 ##### Minus
+```python
+five.minus(int) # 5-int
+```
 ##### Times
+```python
+five.times(int) # 5*int
+```
 ##### Divide
+```python
+five.divide(int) # 5/int
+```
 ##### Power
+```python
+five.power(int) # 5^int -- returns a decimal.
+```
 
 ### If Stuff
 
 ##### Is it really five?
-##### Is it greater than five?
+```python
+five.isfive(int) # checks if int is equal to five
+```
+##### Is it greater or less than than five?
+```python
+five.greater(int) # checks if greater, equal to or less than five
+```

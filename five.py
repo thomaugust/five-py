@@ -43,5 +43,7 @@ def isfive(int):
 def greater(int):
     if int > 5:
         print "%d is greater than five" % int
+    elif int == 5:
+        print "%d is equal to but not greater than five" % int
     else:
-        print "%d is less than five"
+        print "%d is less than five" % int
